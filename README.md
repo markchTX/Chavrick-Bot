@@ -17,16 +17,16 @@ chavrick-bot/
 ├── web3/
 │   ├── client.js            # Solana.js integration with WebSocket support
 │   └── utils.js             # Common Web3 utilities (RPC, WebSocket, API)
-├── env/
-│   └── .env                 # Environment variables (WSS, RPC, API keys)
-├── tests/
-│   ├── contract_tests.js    # Smart contract unit tests
-│   └── integration_tests.py # Full system integration tests
 ├── frontend/
 │   ├── pages/
 │   │   └── index.js         # Main React/Next.js app
 │   └── components/
 │       └── ChatUI.js        # Chat interface
+├── env/
+│   └── .env                 # Environment variables (WSS, RPC, API keys)
+├── tests/
+│   ├── contract_tests.js    # Smart contract unit tests
+│   └── integration_tests.py # Full system integration tests
 ├── docs/
 │   └── ARCHITECTURE.md      # Detailed architecture and flow
 └── LICENSE                  # MIT License file
