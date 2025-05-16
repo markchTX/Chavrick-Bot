@@ -5,8 +5,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-WSS_ENDPOINT = os.getenv("WSS_ENDPOINT")
 RPC_ENDPOINT = os.getenv("RPC_ENDPOINT")
+PROGRAM_ID = os.getenv("PROGRAM_ID")
+PRIVATE_KEY = os.getenv("PRIVATE_KEY")
 
 client = AsyncClient(RPC_ENDPOINT)
 
